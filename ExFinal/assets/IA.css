@@ -1,15 +1,17 @@
+/* INDEX */ 
+
 *{
     padding: 0px;
     margin: 0px;
 }
 
 body{
-text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 color: white;
 }
 
 header{
+    text-align: center;
     background-color: #04233F;
     color:#1190ff;
     padding: 20px;
@@ -40,7 +42,6 @@ color: #fff;
 section{
     background-color:#05192a;
     overflow: auto;
-
 }
 
 /* article{
@@ -107,4 +108,40 @@ footer{
     color: #808080;
     padding: 80px;
     text-align: center;
+}
+
+/* SERVIÇOS */
+
+.text-center{
+    text-align: center;
+}
+
+.container-services{
+    background-color: #05192a;
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+}
+
+.container-services h1{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container-services h3{
+    color: #2097ff;
+    padding:20px 0;
+}
+
+.container-services article{
+    width: 40%;
+    margin: auto;
+    float: center;
+}
+
+.container-services li{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: #fff;
 }
