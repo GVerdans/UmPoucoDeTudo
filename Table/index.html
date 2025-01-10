@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+
+    <style>
+
+        table, th, td{
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            padding: 5px;
+        }
+
+        th{
+            background-color: green;
+            color: #fff;
+        }
+
+        table{
+            width: 50%;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>Tabela</caption>
+
+        <thead>
+            <tr>
+                <th colspan="2">Mesclado 1</th>
+                <th colspan="2">Mesclado 2</th>
+            </tr>
+
+            <tr>
+                <th>Coluna A</th>
+                <td>Coluna B</td>
+                <td>Coluna C</td>
+                <td>Coluna D</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Linha 1 A</th>
+                <td>Linha 1 B</td>
+                <td>Linha 1 C</td>
+                <td>Linha 1 D</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Linha 2 A</th>
+                <td>Linha 2 B</td>
+                <td>Linha 2 C</td>
+                <td>Linha 2 D</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
