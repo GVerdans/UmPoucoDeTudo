@@ -3,15 +3,25 @@
     font-weight: 200px;
 } */
 
-.artigo{
+.artigo {
     padding: 20px 50px;
 }
 
-h1{
+h1 {
     font-family: "Anton", serif;
+    letter-spacing: .1em;
+    word-spacing: .01em;
+
 }
 
-p{
+p {
     font-family: "Genos", serif;
-}
+    font-size: 24px;
+    line-height: 1.5em;
 
+    /*Espaçamento padrão 0px */
+    letter-spacing: .01em;
+
+    /*Espaçamento padrao 0 */
+    word-spacing: .5em;
+}
