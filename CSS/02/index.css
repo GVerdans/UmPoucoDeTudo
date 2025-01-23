@@ -1,0 +1,11 @@
+/* */
+@font-face {
+    font-family: "Jersey";
+    src: url(font/Jersey15-Regular.ttf);
+}
+
+
+.new-font{
+    font-family: "Jersey";
+    font-size: 30px;
+}

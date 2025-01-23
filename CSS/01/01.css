@@ -1,0 +1,9 @@
+/* FONTES SAFE */
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px greenyellow,
+                2px 2px 5px blue,
+                2px 2px 10px red;
+}
