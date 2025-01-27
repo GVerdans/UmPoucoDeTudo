@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    background-color: rgb(7, 7, 8);
+}
+
+nav{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #13161F;
+    height: 20%;
+}
+
+nav > a{
+    text-decoration: none;
+    border: 1px solid #737373;
+    border-radius: 50px;
+    padding: 10px 60px;
+    color: #fff;
+}
+
+nav > a:hover {
+    background-color: #242424;
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 20px;
+    height: 50%;
+    background-color: rgb(14, 15 ,17);
+    color: #fff;
+}
+
+.cartoes {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: rgb(43, 45, 49);
+    padding: 30px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius:10px;
+    margin: 50px 0;
+
+}
+
+img {
+    width: 50px;
+}
+
+.cartoes > p{
+    margin-top: 40px;
+    color:lightgray;
+}
+
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+footer > h2{
+    color:rgb(0, 153, 255);
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+footer > p{
+    color: rgb(83, 83, 83);
+    font-size: 12px;
+    margin-top: 50px;
+}
