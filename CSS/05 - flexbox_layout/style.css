@@ -1,10 +1,13 @@
-* {
-    margin: 0;
+/*CSS DOCUMENT*/
+
+body {
     padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-    background-color: black;
+    background-color: #000;
     height: 100vh;
 }
 
@@ -34,7 +37,7 @@ section {
 }
 
 .main-content {
-    flex-grow: 4;
+    flex-grow: 6;
     text-align: center;
     background-color: rgb(91, 39, 160);
     color: white;
@@ -52,7 +55,7 @@ section {
 footer {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 0, 212);
+    background-color: deeppink;
     color: white;
     padding: 20px;
 }
