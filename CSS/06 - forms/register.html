@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+        <div class="btn-top">
+            <p class="login-back"><a href="index.html"> < </a>
+            </p>
+            <p class="login-close">&times;</p>
+        </div>
+
+        <p class="login-title">Form Register</p>
+
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="name" maxlength="60">
+        </div>
+
+        <div>
+            <label for="senha-usuario">Password:</label>
+            <input type="password" name="senha-usuario" maxlength="60">
+        </div>
+
+        <div>
+            <label for="e-mail">E-mail:</label>
+            <input type="email" name="email">
+        </div>
+
+        <div>
+            <label for="cellphone">Phone:</label>
+            <input type="text" name="cellphone">
+        </div>
+
+        <div>
+            <label for="country">Country:</label>
+            <select name="countries">
+                <option value="" selected></option>
+                <option value="brasil">Brasil</option>
+                <option value="portugal">Portugal</option>
+                <option value="eua">EUA</option>
+                <option value="africa">Africa</option>
+            </select>
+        </div>
+
+        <input type="submit" value="REGISTER" class="login-button">
+    </form>
+</body>
+
+</html>
