@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            display: grid;
+            height: 100vh;
+            text-align: center;
+            /* grid-template-columns:2fr 3fr 2fr; Mexe na Vertical  
+                grid-template-rows: 1fr 1fr 1fr;  Mexe na Horizontal */
+
+            grid-template-columns:repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-areas: 
+                "header header goiabo"
+                "nav nav nav"
+                "content content content"
+                "footer footer footer"
+            ;
+        }
+
+        .area_1 {
+            grid-area: header;
+            background-color: red;
+        }
+
+        .area_2 {
+            grid-area: content;
+            background-color: yellow;
+        }
+        
+        .area_3 {
+            grid-area: footer;
+            background-color: green;
+        }
+
+        div {
+            font-size: 40px;
+            font-weight: bold;
+            border: 1px solid red;
+            align-content: center; /* centraliza na vertical */ 
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="area_1">1</div>
+        <div class="area_2">2</div>
+        <div class="area_3">3</div>
+        <div>4</div>
+        <div>5</div>
+    </section>
+</body>
+</html>
