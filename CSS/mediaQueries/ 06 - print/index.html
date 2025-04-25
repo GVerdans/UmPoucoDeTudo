@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries - Print</title>
+
+    <style>
+
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: yellow;
+        }
+
+        h3 {
+            color: aqua;
+        }
+
+        p {
+            color: aquamarine;
+        }
+
+        @media print {
+            body {
+                background-color: white;
+            }
+
+            h1, h3, p {
+                color: black;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Título da Pág</h1>
+    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi magni</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente eaque, quos, dicta nobis, aperiam illum quasi iste ea assumenda doloremque qui eveniet excepturi. Iure, quaerat reprehenderit? Corporis, sit repellat!
+    Libero recusandae enim quis illum magnam error saepe porro ad? Quam iusto molestiae magni, officia ipsa, culpa tempore ut accusamus officiis fuga ullam eum repellendus quod corrupti exercitationem at odit.</p>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# REFERENCIAS PARA Breaking Points
+
+- 576px para smartphones
+- 768px para tablets
+- 992px para notebooks
+- 1200px para desktops e dispositivos mais largos
+
+# 25ABR25

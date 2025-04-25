@@ -1,0 +1,48 @@
+/*CSS DOCUMENT*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+article {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+    box-shadow: inset 0 0 2px black;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (min-width: 401px){
+    section {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+    }
+}
+
+@media screen and (min-width: 701px){
+    section{
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+
+    }
+}
