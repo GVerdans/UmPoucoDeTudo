@@ -1,15 +1,29 @@
-## UmPoucoDeTudo
+# UmPoucoDeTudo 📚
 
-Este repositório é uma coleção de exemplos, exercícios e experimentos utilizando HTML, CSS e JavaScript. O objetivo é consolidar conhecimentos e explorar diferentes aspectos do desenvolvimento web.
+Este repositório é uma coleção de exemplos, exercícios e experimentos utilizando as principais tecnologias web. O objetivo é consolidar conhecimentos e explorar diferentes aspectos do desenvolvimento web front-end.
 
-📁 Estrutura do Projeto
+## 🛠 Tecnologias Utilizadas
 
-- 01-HTML: Exemplos e exercícios relacionados à marcação HTML.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- 02-CSS: Estudos e práticas com estilos CSS.
+## 📂 Estrutura do Repositório
 
-- 03-JS: Scripts e experimentos com JavaScript.
+UmPoucoDeTudo/  
+├── 01-HTML/ # Exemplos e exercícios relacionados à marcação HTML  
+├── 02-CSS/ # Estudos e práticas com estilos CSS  
+├── 03-JS/ # Scripts e experimentos com JavaScript  
+└── README.md # Documentação do projeto  
 
-📌 Observações
+## 📌 Observações
 
-Este repositório está em constante evolução, com novos exemplos e exercícios sendo adicionados regularmente.
+- Este repositório está em constante evolução 🌱
+- Novos exemplos e exercícios são adicionados regularmente ⚡
+- Contribuições são bem-vindas! 🤝
+
+---
+
+> *"O primeiro 'sudo' deveria ser para instalar coragem."*
+
+> "Commit a cada dia, push a cada conquista, merge nunca – seu crescimento é um branch eterno."
