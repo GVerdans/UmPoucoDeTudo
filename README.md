@@ -1,4 +1,4 @@
-UmPoucoDeTudo
+## UmPoucoDeTudo
 
 Este repositório é uma coleção de exemplos, exercícios e experimentos utilizando HTML, CSS e JavaScript. O objetivo é consolidar conhecimentos e explorar diferentes aspectos do desenvolvimento web.
 
