@@ -15,16 +15,16 @@
 // Arrow Function *************************
 //----------------------
 
-// let funcao1 = function() {
-//     console.log("Função 1");
-// }
+let funcao1 = function() {
+    console.log("Função 1");
+}
 
-// let funcao2 = () => {
-//     console.log("Arrow Function");
-// }
+let funcao2 = () => {
+    console.log("Arrow Function");
+}
 
-// funcao1();
-// funcao2();
+funcao1();
+funcao2();
 
 // --------------------------
 // Arrow Function com parametros
@@ -44,6 +44,6 @@
 
 // Se tiver APENAS UM paramentro fica assm:
 
-let escrever = mensagem => console.log(mensagem);
-escrever("\nÉ isso ai");
-escrever("JS é lecal");
+// let escrever = mensagem => console.log(mensagem);
+// escrever("\nÉ isso ai");
+// escrever("JS é lecal");

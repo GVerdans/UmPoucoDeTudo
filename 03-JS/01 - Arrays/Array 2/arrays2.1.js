@@ -6,15 +6,15 @@ let nomes = ["Joao", "Ana", "Carlos"];
 // Extrair parte de um array. Retorna um novo Array
 //-------------------------------------------------
 
-// console.log('\nArray Original');
-// console.table(nomes);
-// //                              cortar a partir do indice 
-// //                              '0', 2 elementos
-// console.log('\nArray com slice a partir do indice "0", corta 2 elemtos');
-// let nomesExtraidos = nomes.slice(0,2);
-// console.table(nomesExtraidos);
-// console.log('O slice não destroi o array Original, ele cria outro\n Esse é o "nomes"');
-// console.table(nomes);
+console.log('\nArray Original');
+console.table(nomes);
+//                              cortar a partir do indice 
+//                              '0', 2 elementos
+console.log('\nArray com slice a partir do indice "0", corta 2 elemtos');
+let nomesExtraidos = nomes.slice(0,2);
+console.table(nomesExtraidos);
+console.log('O slice não destroi o array Original, ele cria outro\n Esse é o "nomes"');
+console.table(nomes);
 
 //-------------------------------------------------
 // Juntar Arrays
@@ -44,6 +44,6 @@ let nomes = ["Joao", "Ana", "Carlos"];
 // Converter ARRAY em STRING
 //-------------------------------------------------
 
-let todosOsNomes = nomes.join(", ");
-console.log(todosOsNomes);
-console.log(typeof(todosOsNomes));
+// let todosOsNomes = nomes.join(", ");
+// console.log(todosOsNomes);
+// console.log(typeof(todosOsNomes));
