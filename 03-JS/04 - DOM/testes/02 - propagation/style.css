@@ -1,0 +1,35 @@
+/* CSS DOCUMENT */
+
+body {
+    min-height: 100vh; /* Garante altura total da tela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+section, article, div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: #555;
+    width: 400px;
+    height: 400px;
+}
+
+article {
+    background-color: #666;
+    width: 300px;
+    height: 300px;
+}
+
+div {
+    background-color: #777;
+    width: 200px;
+    height: 200px;
+}
