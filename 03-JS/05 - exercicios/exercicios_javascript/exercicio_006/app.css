@@ -1,4 +1,5 @@
 .caixa-informacao{
+    display: block;
     height: 400px;
     background-color: rgb(100,100,120);
     color: white;
