@@ -9,3 +9,30 @@ Enunciado: TRÊS SLIDERS COM VALORES INDEPENDENTES
     definidas através do JavaScript.
 
 ---------------------------------------------------------------------------- */
+
+const range1 = document.querySelector("#range_1");
+range1.setAttribute("min", 0);
+range1.setAttribute("max", 100);
+range1.value = 0;
+
+range1.addEventListener("input", (e) => {
+    document.querySelector("#value_1").textContent = e.target.value;
+})
+
+const range2 = document.querySelector("#range_2");
+range2.setAttribute("min", 0);
+range2.setAttribute("max", 100);
+range2.value = 0;
+
+range2.addEventListener("input", (e) => {
+    document.querySelector("#value_2").textContent = e.target.value;
+})
+
+const range3 = document.querySelector("#range_3");
+range3.setAttribute("min", 0);
+range3.setAttribute("max", 100);
+range3.value = 0;
+
+range3.addEventListener("input", (e) => {
+    document.querySelector("#value_3").textContent = e.target.value;
+})
