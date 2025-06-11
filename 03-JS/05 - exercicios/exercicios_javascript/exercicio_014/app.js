@@ -8,4 +8,19 @@ Enunciado:
     nova inserção.
     Não são permitidas as palavras "teste", "obrigado" e "hoje"
 ---------------------------------------------------------------------------- */
+const probidos = ["teste", "obrigado", "hoje", ""];
+const inputText = document.querySelector("#text_post");
+
+document.querySelector("button").addEventListener("click", () => {
+    if (probidos.includes(inputText.value)){
+        inputText.focus();
+        return;
+    } else {
+        let p = document.createElement("p");
+        document.querySelector('#posts').appendChild(p);
+        p.textContent = inputText.value;
+        inputText.value = "";
+        inputText.focus();
+    }
+})
 
