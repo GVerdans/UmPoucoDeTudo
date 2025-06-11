@@ -11,4 +11,22 @@ Enunciado:
     NOTA: O HTML não pode ser alterado.
 ---------------------------------------------------------------------------- */
 
+const inputText = document.querySelector("#text_post");
 
+document.querySelectorAll("button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+        if (btn.textContent === "Adicionar") {
+            let newP = document.createElement("p");
+            document.querySelector("#posts").appendChild(newP);
+            newP.textContent = inputText.value;
+            inputText.value = "";
+            inputText.focus();
+        }
+
+        if (btn.textContent === "Limpar") {
+            document.querySelector("#posts").innerHTML = "";
+            inputText.focus();
+        }
+    })
+    
+})
