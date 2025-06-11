@@ -8,3 +8,12 @@ Enunciado:
 ---------------------------------------------------------------------------- */
 
 
+document.querySelectorAll('.box').forEach((boxes) => {
+    boxes.addEventListener("click", (e) => {
+        document.querySelectorAll('.box').forEach(box => {
+            box.style.background = 'red';
+        })
+        e.target.style.background = 'yellow';
+        // console.log(e);
+    })
+})
