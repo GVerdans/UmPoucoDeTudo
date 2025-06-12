@@ -10,3 +10,9 @@ Enunciado:
     NOTA: Não podes usar um ciclo neste exercício.
 ---------------------------------------------------------------------------- */
 let frutos = ['laranja', 'maçã', 'pêra', 'morango', 'ananás', 'limão', 'banana'];
+
+const inputText = document.querySelector("#text_palavra");
+
+document.querySelector("button").addEventListener("click", () =>{
+         document.querySelector("#resultado").textContent = frutos.includes(inputText.value) ? 'SIM' : 'NAO';
+})
