@@ -8,3 +8,18 @@ Enunciado:
     Ao clicar em todas, todas as checkboxes devem ser checkadas.
     Ao clicar em nenhuma, todas as checkboxes devem ser descheckadas.
 ---------------------------------------------------------------------------- */
+
+const btnTodos = document.querySelector("#all");
+const btnNenhum = document.querySelector("#none");
+
+btnTodos.addEventListener("click", () => {
+    document.querySelectorAll("input[type='checkbox']").forEach(cb => {
+        cb.checked = true;
+    })
+})
+
+btnNenhum.addEventListener("click", () => {
+    document.querySelectorAll("input[type='checkbox']").forEach(cb => {
+        cb.checked = false;
+    })
+})
