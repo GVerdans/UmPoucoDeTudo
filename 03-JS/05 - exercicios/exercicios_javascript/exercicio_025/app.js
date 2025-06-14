@@ -15,9 +15,6 @@ inputNum.setAttribute("max", 20);
 inputNum.addEventListener("change", () => {
     resultado.innerHTML = "";
     fazAsContas(inputNum.value)
-    // for ( let i = 0; i < 11; i++){
-    //     resultado.innerHTML += `${i} x ${inputNum.value} = ${inputNum.value * i} <br>`;
-    // }
 })
 
 function fazAsContas(num){
