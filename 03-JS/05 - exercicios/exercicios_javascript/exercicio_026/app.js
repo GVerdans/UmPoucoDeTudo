@@ -12,3 +12,29 @@ Enunciado:
     Se for igual, deve aparecer uma mensagem de sucesso, caso contrário,
     a mensagem de sucesso deve estar escondida.
 ---------------------------------------------------------------------------- */
+
+const inputs = document.querySelectorAll(".form-control");
+const txtSuccess = document.querySelector(".text-success");
+
+inputs[0].focus();
+txtSuccess.style.display = "none";
+
+inputs.forEach((input, index) => {
+    input.setAttribute("maxlength", 1);
+    input.addEventListener("input", () => {
+       if(input.value !== ""){
+        let nxtIndex = (index + 1) % inputs.length;
+        inputs[nxtIndex].focus();
+       }
+        verificaInputs();
+    })
+})
+
+function verificaInputs(){
+    let num = "";
+    inputs.forEach(input => {
+        num += input.value;
+    })
+
+   txtSuccess.style.display = (num === "1234") ? "block" : "none";
+}
