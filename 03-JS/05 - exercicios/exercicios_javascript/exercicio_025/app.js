@@ -8,12 +8,21 @@ Enunciado:
 ---------------------------------------------------------------------------- */
 
 const inputNum = document.querySelector("#text_numero");
+const resultado = document.querySelector("#resultados");
 inputNum.setAttribute("min", 1);
 inputNum.setAttribute("max", 20);
 
 inputNum.addEventListener("change", () => {
-    document.querySelector("#resultados").innerHTML = "";
-    for ( let i = 0; i < 11; i++){
-        document.querySelector("#resultados").innerHTML += `${i} x ${inputNum.value} = ${inputNum.value * i} <br>`;
-    }
+    resultado.innerHTML = "";
+    fazAsContas(inputNum.value)
+    // for ( let i = 0; i < 11; i++){
+    //     resultado.innerHTML += `${i} x ${inputNum.value} = ${inputNum.value * i} <br>`;
+    // }
 })
+
+function fazAsContas(num){
+    for (let i = 0; i < 11; i++){
+        let mult = `${i} x ${num} = ${num * i}<br>`;
+        resultado.innerHTML += mult;
+    }
+}
