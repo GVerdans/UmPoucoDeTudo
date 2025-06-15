@@ -9,3 +9,16 @@ Enunciado:
     Se o resultado de qualquer cálculo for incorreto, deve aparecer a mensagem
     "Valor inválido"
 ---------------------------------------------------------------------------- */
+
+const inputTxt = document.querySelector("#text_valor");
+const saidaTxt = document.querySelector("#resultado");
+
+document.querySelector("button").addEventListener("click", () => {
+    if(isNaN(inputTxt.value) || inputTxt.value.trim() == ""){
+      saidaTxt.textContent = "Valor Inválido !"
+} else {
+      let divisao = inputTxt.value / 3;
+      saidaTxt.textContent = divisao.toFixed(1);
+  }
+    
+})
